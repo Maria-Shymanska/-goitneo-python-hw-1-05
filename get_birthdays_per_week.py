@@ -32,8 +32,8 @@ def get_birthdays_per_week(users):
         day_of_week = (today + timedelta(days=delta_days)).strftime("%A")
         if delta_days < 7:
             birthdays_by_day[day_of_week].append(name)
-        else:
-            print("No birthdays")
+        # else:
+        #     print("No birthdays")
 
         for day, names in birthdays_by_day.items():
         
