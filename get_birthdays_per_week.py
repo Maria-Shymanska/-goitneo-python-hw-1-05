@@ -1,14 +1,15 @@
-# In the first step, you need to implement a function to display a list of colleagues 
-# who need to be congratulated on their birthdays during the week.
-# You have a list of user dictionaries, each dictionary in it must have the keys name and birthday.
-# This structure represents a model of a list of users with their names and birthdays.
-# Where 'name' - is the string with the username and 'birthday' is the datetime object in which the birthday is recorded.
-# for example:
-# {"name": "Bill Gates", "birthday": datetime(1955, 10, 28)}
-# Your task is to write a get_birthdays_per_week function
-# that receives a list of users as input and displays in the console (using print) a list of users
-# who need to be congratulated day by day next week.
-
+'''
+In the first step, you need to implement a function to display a list of colleagues 
+who need to be congratulated on their birthdays during the week.
+You have a list of user dictionaries, each dictionary in it must have the keys name and birthday.
+This structure represents a model of a list of users with their names and birthdays.
+Where 'name' - is the string with the username and 'birthday' is the datetime object in which the birthday is recorded.
+for example:
+{"name": "Bill Gates", "birthday": datetime(1955, 10, 28)}
+Your task is to write a get_birthdays_per_week function
+that receives a list of users as input and displays in the console (using print) a list of users
+who need to be congratulated day by day next week.
+'''
 
 from datetime import datetime, timedelta
 from collections import defaultdict
